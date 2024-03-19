@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+:root {
+  --main: #e63946ff;
+  --accent1: #f1faee;
+  --accent2: #D1FAFF;
+  --accent3: #457b9d;
+  --title: #0214BB;
+  --complement: #1d3557;
+}
+
+html,
+body {
+  font-size: 14px;
+  background: var(--accent2);
+}
+
+.has-text-primary {
+  color: var(--main) !important;
+}
+
+.maintext {
+  background-color: var(--accent1);
+}
+
+h1.is-bordered {
+  color: var(--title);
+}
+
+navbar-end {
+  /* margin-right: ; */
+}
+
+div.is-active {
+  background-color: var(--accent2);
+}
+
+.navbar-end.button {
+  margin: auto;
+}
+
+.navbar {
+  background: var(--title);
+}
+
+.navbar-brand .brand-text {
+  font-size: 1.11rem;
+  font-weight: bold;
+}
+
+.navbar-item {
+  height: auto;
+}
+
+.navbar-item.is-light {
+  background: var(--accent1);
+}
+
+span.burger {
+  color: var(--accent2);
+}
+
+.hero-body {
+  background-image: url(https://i.pinimg.com/originals/f1/10/eb/f110ebbebd7355069f411096b761d2f9.jpg);
+  background-color: var(--accent1);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: fit-content;
+}
+
+/* 
+.media-center {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.media-content {
+  margin-top: 3rem;
+}
+
+.article,
+.promo-block {
+  margin-top: 6rem;
+}
+
+div.column.is-8:first-child {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.article-title {
+  font-size: 2rem;
+  font-weight: lighter;
+  line-height: 2;
+}
+
+.article-subtitle {
+  color: #909AA0;
+  margin-bottom: 3rem;
+}
+
+.article-body {
+  line-height: 1.4;
+  margin: 0 6rem;
+}
+
+.promo-block .container {
+  margin: 1rem 5rem;
+} */
+
+.title.textborder {
+  /* -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black; */
+  text-shadow:
+    -4px 4px 0 #000,
+    -4px -4px 0 #000,
+    4px 4px 0 #000,
+    4px -4px 0 #000;
+}
+
+h1.title {
+  color: var(--accent2);
+  font-family: "Dela Gothic One", sans-serif;
+  font-weight: 420;
+  font-style: normal;
+}

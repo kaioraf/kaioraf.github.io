@@ -16,7 +16,7 @@ body {
 }
 
 .has-text-primary {
-  color: var(--main) !important;
+  color: var(--title) !important;
 }
 
 .maintext {
@@ -69,6 +69,14 @@ span.burger {
   height: fit-content;
 }
 
+hr.divider {
+  display: block;
+  height: 2px;
+  border: 0;
+  border-top: 1px solid var(--title);
+  margin-bottom: 25px;
+}
+
 /* 
 .media-center {
   display: block;
@@ -113,10 +121,10 @@ div.column.is-8:first-child {
   /* -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black; */
   text-shadow:
-    -4px 4px 0 #000,
-    -4px -4px 0 #000,
-    4px 4px 0 #000,
-    4px -4px 0 #000;
+    -3px 3px 0 #000,
+    -3px -3px 0 #000,
+    3px 3px 0 #000,
+    3px -3px 0 #000;
 }
 
 h1.title {

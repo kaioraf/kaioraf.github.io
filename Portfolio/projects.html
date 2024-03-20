@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Portfolio Site</title>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+      <link rel="stylesheet" type="text/css" href="../css/site.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+      <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+
+<body>
+      <!--Navigation bar-->
+      <div id="nav-placeholder"></div>
+      <script>
+            $(function () {
+                  $("#nav-placeholder").load("navbar.html");
+            });
+      </script>
+      <!--end of Navigation bar-->
+      <section class="section">
+            <div class="container">
+                  <h1 class="title has-text-centered has-text-primary">
+                        My Projects
+                  </h1>
+            </div>
+      </section>
+
+      <div class="columns">
+            <div class="column"></div>
+            <div class="column is-three-quarters is-transparent">
+                  <div class="card ml-5 mr-3">
+                        <div class="columns">
+                              <div class="column">
+                                    <div class="card-image">
+                                          <figure class="image is-3by2 mx-4">
+                                                <img src="../images/Screenshot from 2024-02-14 13-40-49.png"
+                                                      alt="Screenshot of flight simulator">
+                                          </figure>
+                                    </div>
+                              </div>
+                              <div class="column">
+                                    <div class="card-content">
+                                          <div class="content">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
+                                                reprehenderit, voluptatem magnam, voluptas veritatis nihil dignissimos
+                                                ut, quam dolor quis iure voluptatum eos sint qui aliquam pariatur?
+                                                Inventore, velit accusantium!
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                        <footer class="card-footer">
+                              <p class="card-footer-item">2023</p>
+                        </footer>
+                  </div>
+                  <hr class="divider">
+                  <div class="card ml-5 mr-3">
+                        <div class="columns">
+                              <div class="column">
+                                    <div class="card-content">
+                                          <div class="content">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
+                                                reprehenderit, voluptatem magnam, voluptas veritatis nihil dignissimos
+                                                ut, quam dolor quis iure voluptatum eos sint qui aliquam pariatur?
+                                                Inventore, velit accusantium!
+                                          </div>
+                                    </div>
+                              </div>
+                              <div class="column">
+                                    <div class="card-image">
+                                          <figure class="image is-3by2 mx-4">
+                                                <img src="../images/Screenshot from 2024-02-14 13-40-49.png"
+                                                      alt="Screenshot of flight simulator">
+                                          </figure>
+                                    </div>
+                              </div>
+                        </div>
+                        <footer class="card-footer">
+                              <p class="card-footer-item">2023</p>
+                        </footer>
+                  </div>
+            </div>
+            <div class="column"></div>
+      </div>
+      <!-- Footer-->
+      <div id="footer-placeholder"></div>
+      <script>
+            $(function () {
+                  $("#footer-placeholder").load("footer.html");
+            });
+      </script>
+      <!--end of Footer -->
+</body>
+
+</html>

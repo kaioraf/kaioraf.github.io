@@ -4,52 +4,25 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Hello Bulma!</title>
+	<title>Portfolio Site</title>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
 	<link rel="stylesheet" type="text/css" href="../css/site.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 
 <body>
-	<nav class="navbar" role="navigation" aria-label="main navigation">
-		<div class="navbar-brand">
-			<a href="../Portfolio/index.html">
-				<h1 class="title mx-3 my-3">
-					Kaio Hermes
-				</h1>
-			</a>
-			<span class="navbar-burger burger " data-target="navbarMenu">
-				<span aria-hidden="true"></span>
-				<span aria-hidden="true"></span>
-				<span aria-hidden="true"></span>
-			</span>
-		</div>
-		<div id="navbarMenu" class="navbar-menu">
-			<div class="navbar-end">
-				<div class="columns">
-					<div class="column">
-						<div class="navbar-item button is-info py-4 px-4">
-							Home
-						</div>
-					</div>
-					<div class="column">
-						<div class="navbar-item button is-light py-4 px-4" href="/Portfolio/projects.html">
-							Projects
-						</div>
-					</div>
-					<div class="column">
-						<div class="navbar-item button is-light py-4 px-4">
-							About
-						</div>
-					</div>
-					<div class="column"></div>
-				</div>
-			</div>
-		</div>
+	<!--Navigation bar-->
+	<div id="nav-placeholder"></div>
+	<script>
+		$(function () {
+			$("#nav-placeholder").load("navbar.html");
+		});
+	</script>
+	<!--end of Navigation bar-->
 
-	</nav>
 	<section class="hero is-info is-medium is-bold">
 		<div class="hero-body">
 			<div class="container has-text-centered">
@@ -67,7 +40,7 @@
 
 	<div class="columns">
 		<div class="column"></div>
-		<div class="column is-three-quarters box maintext">
+		<div class="column is-three-quarters box maintext mx-4">
 			<p>
 				Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, culpa itaque sed doloremque
 				tempora, minus reiciendis aut possimus ex dolorum placeat, similique perferendis dignissimos
@@ -289,19 +262,14 @@
 		</div>
 		<div class="column"></div>
 	</div>
-	<footer class="footer">
-		<div class="columns">
-			<div class="column content has-text-centered">
-				<p>
-					<!-- <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code
-					is licensed
-					<a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
-					is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA
-						4.0</a>. -->
-				</p>
-			</div>
-	</footer>
-	<script async type="text/javascript" src="../js/burgermenu.js"></script>
+	<!--Footer-->
+	<div id="footer-placeholder"></div>
+	<script>
+		$(function () {
+			$("#footer-placeholder").load("footer.html");
+		});
+	</script>
+	<!--end of Footer-->
 </body>
 
 </html>

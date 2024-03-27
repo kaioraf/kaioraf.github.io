@@ -23,6 +23,11 @@ body {
   background-color: var(--accent1);
 }
 
+p.flex {
+  display: flex;
+  align-items:last baseline;
+}
+
 h1.is-bordered {
   color: var(--title);
 }
